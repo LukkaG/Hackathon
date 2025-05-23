@@ -1,3 +1,5 @@
+
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -161,7 +163,7 @@ form button[type="submit"]:hover {
 .table-responsive {
     width: 100%;
     overflow-x: auto; /* PERMITE A ROLAGEM HORIZONTAL SE O CONTEÚDO FOR MAIOR */
-    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch; /* Melhora a rolagem em dispositivos iOS */
     margin-bottom: 1rem;
 }
 

@@ -3,76 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Pacientes</title>
+    <title>Lista de Pacientes - Caninos</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <link rel="icon" href="{{ url_for('static', filename='aunalise_favicon.png') }}" type="image/png">
+    <style>
+        /* Adicione estilos CSS para sua tabela aqui */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .actions {
+            white-space: nowrap; /* Evita que os botões quebrem linha */
+        }
+        .button-add {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button-edit, .button-predict {
+            padding: 5px 10px;
+            margin-right: 5px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button-edit { background-color: #008CBA; color: white; }
+        .button-predict { background-color: #f44336; color: white; }
+        .button-edit:hover { background-color: #007bb5; }
+        .button-predict:hover { background-color: #da190b; }
+    </style>
 </head>
 <body>
-    <header>
-        <nav class="main-nav">
-            <ul>
-                <li><a href="/">Lista de Pacientes</a></li>
-                <li class="logo">
-                    <a href="/">
-                        <span>Aunalise</span>
-                    </a>
-                </li>
-                <li><a href="/adicionar_form">Adicionar Paciente</a></li>
-            </ul>
-        </nav>
-    </header>
-
     <div class="container">
-        <h1>Lista de Pacientes</h1>
+        <h1>Pacientes Caninos Registrados</h1>
+        <a href="{{ url_for('exibir_form_adicionar') }}" class="button-add">Adicionar Novo Paciente</a>
 
-        <div class="table-responsive">
-            {% if pacientes %}
-                <table>
-                    <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>Nome</th>
-                            <th>Raça</th>
-                            <th>Sexo</th>
-                            <th>Peso</th>
-                            <th>Idade</th>
-                            <th>ID Veterinário</th>
-                            <th>Espécie</th>
-                            <th>Nascimento</th>
-                            <th>Temperamento</th>
-                            <th>Histórico</th>
-                            <th>Vacinal</th>
-                            <th>Alergias</th>
-                            <th>Ações</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {% for paciente in pacientes %}
-                        <tr>
-                            <td>{{ paciente[0] }}</td>
-                            <td>{{ paciente[1] }}</td>
-                            <td>{{ paciente[2] }}</td>
-                            <td>{{ paciente[3] }}</td>
-                            <td>{{ paciente[4] }}</td>
-                            <td>{{ paciente[5] }}</td>
-                            <td>{{ paciente[6] or 'N/A' }}</td>
-                            <td>{{ paciente[7] }}</td>
-                            <td>{{ paciente[8] or 'N/A' }}</td>
-                            <td>{{ paciente[9] or 'N/A' }}</td>
-                            <td>{{ paciente[10] or 'N/A' }}</td>
-                            <td>{{ paciente[11] or 'N/A' }}</td>
-                            <td>{{ paciente[12] or 'N/A' }}</td>
-                            <td>
-                                <a href="{{ url_for('editar_paciente', paciente_id=paciente[0]) }}" class="btn-editar">Editar</a>
-                            </td>
-                        </tr>
+        {% if pacientes %}
+        <div class="table-responsive"> <table>
+                <thead>
+                    <tr>
+                        {% for coluna in colunas %}
+                        <th>{{ coluna.replace('_', ' ').title() }}</th> {% endfor %}
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for paciente in pacientes %}
+                    <tr>
+                        {% for coluna in colunas %}
+                        <td>
+                            {% if coluna == 'id' %}
+                            {{ paciente[coluna] }}
+                            {% else %}
+                            {{ paciente[coluna] }}
+                            {% endif %}
+                        </td>
                         {% endfor %}
-                    </tbody>
-                </table>
-            {% else %}
-                <p>Nenhum paciente cadastrado ainda.</p>
-            {% endif %}
-        </div>
+                        <td class="actions">
+                            <a href="{{ url_for('editar_paciente', paciente_id=paciente.id) }}" class="button-edit">Editar</a>
+                            <a href="{{ url_for('prever', paciente_id=paciente.id) }}" class="button-predict">Prever Risco</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div> {% else %}
+        <p>Nenhum paciente canino registrado ainda.</p>
+        {% endif %}
     </div>
 </body>
 </html>
