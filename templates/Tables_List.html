@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Pacientes</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Pacientes</h1>
+
+        {% if pacientes %}
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Raça</th>
+                        <th>Sexo</th>
+                        <th>Peso</th>
+                        <th>Idade</th>
+                        <th>ID Veterinário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for paciente in pacientes %}
+                    <tr>
+                        <td>{{ paciente[0] }}</td>
+                        <td>{{ paciente[1] }}</td>
+                        <td>{{ paciente[2] }}</td>
+                        <td>{{ paciente[3] }}</td>
+                        <td>{{ paciente[4] }}</td>
+                        <td>{{ paciente[5] }}</td>
+                        <td>{{ paciente[6] or 'N/A' }}</td> {# Exibe 'N/A' se id_veterinario for None #}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p>Nenhum paciente cadastrado ainda.</p>
+        {% endif %}
+
+        <p class="link-voltar"><a href="/">Voltar para Adicionar Paciente</a></p>
+    </div>
+</body>
+</html>
