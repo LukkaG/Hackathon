@@ -1,0 +1,220 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef; /* Cor de fundo suave */
+    color: #343a40; /* Cor de texto padrão */
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto; /* Centraliza o container e adiciona margem vertical */
+    padding: 20px;
+    background-color: #ffffff; /* Fundo branco para o conteúdo */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 {
+    color: #007bff; /* Azul primário */
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #007bff; /* Linha de destaque abaixo do título */
+    padding-bottom: 10px;
+}
+
+/* --- ESTILOS DO CABEÇALHO E NAVEGAÇÃO --- */
+header {
+    background-color: #343a40; /* Cor de fundo escura para o menu */
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+.main-nav ul {
+    list-style: none; /* Remove os marcadores de lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Para alinhar os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens do menu */
+}
+
+.main-nav ul li {
+    margin: 0 15px; /* Espaçamento entre os itens do menu */
+}
+
+/* --- ESTILOS DO LOGO DE TEXTO --- */
+.main-nav ul .logo {
+    margin: 0 25px; /* Espaçamento lateral para o logo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Regras para a imagem do logo foram removidas */
+/* .main-nav ul .logo img { ... } */
+
+.main-nav ul .logo span {
+    color: white; /* Cor do texto "Aunalise" */
+    font-size: 2em; /* Tamanho da fonte do texto "Aunalise" */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.main-nav ul li a {
+    color: white; /* Cor do texto dos links normais */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.main-nav ul li a:hover {
+    background-color: #007bff; /* Cor de fundo no hover */
+}
+
+.main-nav ul .logo a:hover {
+    background-color: transparent; /* Não muda o fundo no hover do logo */
+    color: #f8f9fa; /* Efeito de hover suave no texto do logo */
+}
+
+/* --- ESTILOS DO FORMULÁRIO --- */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaçamento entre os elementos do formulário */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #495057;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="date"], /* Adicionado para input type="date" */
+.form-group textarea { /* Adicionado para textarea */
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+/* Estilo padrão para todos os botões de submit */
+form button[type="submit"] {
+    background-color: #28a745; /* Verde para adicionar */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+form button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Estilo específico para o botão "Atualizar Paciente" */
+.btn-atualizar {
+    background-color: #17a2b8; /* Azul/ciano para atualizar */
+}
+
+.btn-atualizar:hover {
+    background-color: #138496;
+}
+
+/* Estilo para o botão/link "Editar" na lista */
+.btn-editar {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ffc107; /* Amarelo para editar */
+    color: #343a40;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+    white-space: nowrap; /* Impede que o texto quebre linha no botão */
+}
+
+.btn-editar:hover {
+    background-color: #e0a800;
+}
+
+
+/* --- ESTILOS DA TABELA (LISTA DE PACIENTES) --- */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto; /* PERMITE A ROLAGEM HORIZONTAL SE O CONTEÚDO FOR MAIOR */
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%; /* Garante que a tabela use 100% da largura da div responsiva */
+    min-width: 700px; /* Garante uma largura mínima para a tabela, evitando que encolha demais */
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: left;
+    white-space: nowrap; /* Impede que o texto quebre linha em células pequenas */
+    overflow: hidden; /* Esconde o texto que excede o tamanho da célula */
+    text-overflow: ellipsis; /* Adiciona "..." se o texto for cortado */
+    max-width: 150px; /* Limita a largura máxima da coluna, ajuste conforme necessário */
+    min-width: 80px; /* Garante uma largura mínima para as colunas */
+}
+/* Removendo a propriedade 'white-space: nowrap;' dos th e td se quiser que o texto possa quebrar */
+/* Mas cuidado, isso pode fazer a tabela expandir verticalmente em vez de horizontalmente */
+/* table th, table td { white-space: normal; } */
+
+
+table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+table tbody tr:hover {
+    background-color: #e2e6ea;
+}
+
+/* --- ESTILOS DE LINKS DE NAVEGAÇÃO --- */
+.link-voltar {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.link-voltar a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-voltar a:hover {
+    text-decoration: underline;
+}

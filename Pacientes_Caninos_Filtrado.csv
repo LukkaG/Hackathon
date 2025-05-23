@@ -1,0 +1,492 @@
+nome;idade;peso;especie;sexo;raca;historico_doencas;estado_vacinal;temperamento;alergias;risco
+Paciente1;6;19.5;Canina;M;Labrador;Nenhum;Desconhecido;Sociável;Nenhuma;Sem Problemas
+Paciente2;13;6.7;Canina;M;Golden Retriever;Insuficiência Renal;Completo;Agressivo;Ração;Internação
+Paciente5;9;45.0;Canina;M;Labrador;Diabetes;Incompleto;Calmo;Ácaro;Morte
+Paciente6;2;3.0;Canina;F;Labrador;Diabetes;Incompleto;Sociável;Medicamento;Sem Problemas
+Paciente8;15;42.4;Canina;F;Bulldog;Alergia Crônica;Desconhecido;Medroso;Nenhuma;Internação
+Paciente12;11;6.9;Canina;F;Vira-lata;Insuficiência Renal;Incompleto;Calmo;Medicamento;Internação
+Paciente14;19;59.3;Canina;M;Bulldog;Insuficiência Renal;Desconhecido;Calmo;Ácaro;Sem Problemas
+Paciente15;4;39.6;Canina;F;Bulldog;Alergia Crônica;Incompleto;Agressivo;Ácaro;Sem Problemas
+Paciente19;18;14.5;Canina;M;Poodle;Cardiopatia;Completo;Calmo;Ração;Sem Problemas
+Paciente20;16;8.9;Canina;F;Labrador;Insuficiência Renal;Desconhecido;Sociável;Pólen;Internação
+Paciente21;1;17.1;Canina;F;Vira-lata;Alergia Crônica;Desconhecido;Sociável;Nenhuma;Morte
+Paciente22;15;14.3;Canina;F;Labrador;Alergia Crônica;Completo;Sociável;Nenhuma;Internação
+Paciente25;3;56.8;Canina;M;Golden Retriever;Cardiopatia;Desconhecido;Calmo;Nenhuma;Sem Problemas
+Paciente26;8;48.5;Canina;F;Labrador;Alergia Crônica;Desconhecido;Sociável;Ração;Sem Problemas
+Paciente28;18;14.6;Canina;F;Bulldog;Alergia Crônica;Completo;Agressivo;Medicamento;Sem Problemas
+Paciente29;2;56.3;Canina;F;Poodle;Problema Articular;Completo;Agressivo;Ácaro;Internação
+Paciente30;12;12.6;Canina;M;Labrador;Alergia Crônica;Desconhecido;Agressivo;Nenhuma;Sem Problemas
+Paciente33;1;21.7;Canina;F;Pitbull;Problema Articular;Desconhecido;Sociável;Medicamento;Morte
+Paciente34;19;16.3;Canina;F;Bulldog;Insuficiência Renal;Completo;Sociável;Ração;Sem Problemas
+Paciente37;13;15.9;Canina;F;Pitbull;Cardiopatia;Incompleto;Agressivo;Pólen;Internação
+Paciente38;7;22.8;Canina;F;Poodle;Nenhum;Incompleto;Agressivo;Medicamento;Sem Problemas
+Paciente39;10;18.6;Canina;M;Labrador;Insuficiência Renal;Desconhecido;Agressivo;Nenhuma;Sem Problemas
+Paciente41;8;43.7;Canina;F;Bulldog;Diabetes;Desconhecido;Calmo;Ácaro;Sem Problemas
+Paciente43;0;20.0;Canina;F;Vira-lata;Alergia Crônica;Desconhecido;Agressivo;Medicamento;Sem Problemas
+Paciente48;7;21.8;Canina;F;Labrador;Diabetes;Incompleto;Agressivo;Ração;Internação
+Paciente49;5;33.8;Canina;M;Golden Retriever;Insuficiência Renal;Desconhecido;Sociável;Ração;Sem Problemas
+Paciente50;2;42.0;Canina;M;Bulldog;Cardiopatia;Desconhecido;Medroso;Ração;Sem Problemas
+Paciente51;6;41.6;Canina;M;Labrador;Insuficiência Renal;Completo;Calmo;Ração;Internação
+Paciente56;10;36.9;Canina;F;Poodle;Problema Articular;Completo;Sociável;Ácaro;Internação
+Paciente60;17;9.9;Canina;F;Golden Retriever;Alergia Crônica;Desconhecido;Medroso;Ração;Sem Problemas
+Paciente62;15;52.6;Canina;M;Golden Retriever;Problema Articular;Completo;Agressivo;Ácaro;Sem Problemas
+Paciente63;6;12.8;Canina;M;Bulldog;Cardiopatia;Desconhecido;Sociável;Nenhuma;Sem Problemas
+Paciente64;9;58.4;Canina;F;Poodle;Cardiopatia;Completo;Agressivo;Pólen;Internação
+Paciente65;12;32.7;Canina;M;Pitbull;Cardiopatia;Incompleto;Sociável;Medicamento;Sem Problemas
+Paciente67;2;54.2;Canina;F;Bulldog;Alergia Crônica;Completo;Medroso;Medicamento;Sem Problemas
+Paciente70;0;13.1;Canina;M;Bulldog;Insuficiência Renal;Completo;Agressivo;Ácaro;Internação
+Paciente73;10;49.5;Canina;F;Pitbull;Nenhum;Completo;Medroso;Nenhuma;Sem Problemas
+Paciente75;5;41.1;Canina;F;Bulldog;Insuficiência Renal;Desconhecido;Calmo;Ácaro;Sem Problemas
+Paciente76;0;2.7;Canina;M;Vira-lata;Cardiopatia;Incompleto;Sociável;Medicamento;Internação
+Paciente78;13;4.1;Canina;M;Pitbull;Cardiopatia;Desconhecido;Medroso;Pólen;Sem Problemas
+Paciente81;14;21.6;Canina;M;Golden Retriever;Alergia Crônica;Incompleto;Medroso;Pólen;Morte
+Paciente84;4;27.7;Canina;M;Labrador;Diabetes;Desconhecido;Agressivo;Ração;Internação
+Paciente86;2;52.7;Canina;F;Bulldog;Cardiopatia;Incompleto;Medroso;Ácaro;Sem Problemas
+Paciente87;3;36.9;Canina;F;Vira-lata;Problema Articular;Desconhecido;Agressivo;Medicamento;Sem Problemas
+Paciente90;0;33.1;Canina;F;Poodle;Problema Articular;Desconhecido;Medroso;Pólen;Internação
+Paciente91;16;50.1;Canina;F;Golden Retriever;Nenhum;Desconhecido;Sociável;Nenhuma;Sem Problemas
+Paciente94;17;17.0;Canina;M;Labrador;Nenhum;Completo;Medroso;Medicamento;Sem Problemas
+Paciente95;6;49.6;Canina;F;Vira-lata;Diabetes;Desconhecido;Medroso;Ácaro;Internação
+Paciente96;8;10.5;Canina;F;Labrador;Insuficiência Renal;Completo;Calmo;Nenhuma;Sem Problemas
+Paciente99;14;9.3;Canina;F;Bulldog;Insuficiência Renal;Incompleto;Calmo;Ração;Morte
+Paciente100;6;26.8;Canina;M;Golden Retriever;Insuficiência Renal;Completo;Calmo;Ácaro;Sem Problemas
+Paciente102;3;50.0;Canina;F;Vira-lata;Problema Articular;Desconhecido;Sociável;Medicamento;Morte
+Paciente106;4;24.2;Canina;F;Vira-lata;Alergia Crônica;Desconhecido;Agressivo;Ração;Sem Problemas
+Paciente107;17;47.2;Canina;F;Pitbull;Insuficiência Renal;Completo;Sociável;Nenhuma;Sem Problemas
+Paciente111;17;33.5;Canina;F;Golden Retriever;Insuficiência Renal;Incompleto;Agressivo;Medicamento;Sem Problemas
+Paciente114;9;38.1;Canina;F;Poodle;Problema Articular;Desconhecido;Sociável;Ácaro;Sem Problemas
+Paciente115;2;59.3;Canina;M;Poodle;Nenhum;Desconhecido;Medroso;Medicamento;Sem Problemas
+Paciente117;10;7.8;Canina;F;Golden Retriever;Alergia Crônica;Incompleto;Medroso;Pólen;Internação
+Paciente118;14;31.7;Canina;M;Bulldog;Nenhum;Completo;Medroso;Ácaro;Sem Problemas
+Paciente119;0;14.0;Canina;F;Pitbull;Nenhum;Desconhecido;Calmo;Ração;Sem Problemas
+Paciente121;8;41.2;Canina;F;Vira-lata;Alergia Crônica;Desconhecido;Sociável;Nenhuma;Internação
+Paciente129;6;6.5;Canina;M;Poodle;Cardiopatia;Completo;Medroso;Nenhuma;Sem Problemas
+Paciente131;14;14.8;Canina;F;Golden Retriever;Alergia Crônica;Incompleto;Sociável;Nenhuma;Sem Problemas
+Paciente134;2;33.0;Canina;F;Vira-lata;Insuficiência Renal;Completo;Agressivo;Ácaro;Internação
+Paciente135;19;18.5;Canina;F;Pitbull;Nenhum;Completo;Sociável;Ração;Internação
+Paciente136;6;26.8;Canina;F;Poodle;Insuficiência Renal;Desconhecido;Calmo;Ácaro;Sem Problemas
+Paciente137;17;37.1;Canina;F;Pitbull;Alergia Crônica;Completo;Sociável;Ácaro;Sem Problemas
+Paciente138;9;23.3;Canina;M;Golden Retriever;Alergia Crônica;Incompleto;Sociável;Medicamento;Sem Problemas
+Paciente140;18;50.3;Canina;F;Vira-lata;Alergia Crônica;Desconhecido;Calmo;Ração;Sem Problemas
+Paciente142;19;3.9;Canina;M;Vira-lata;Problema Articular;Desconhecido;Agressivo;Medicamento;Internação
+Paciente145;16;42.2;Canina;M;Pitbull;Nenhum;Completo;Medroso;Ração;Sem Problemas
+Paciente146;4;29.5;Canina;M;Vira-lata;Insuficiência Renal;Incompleto;Calmo;Pólen;Morte
+Paciente148;4;44.2;Canina;M;Vira-lata;Nenhum;Desconhecido;Calmo;Ácaro;Sem Problemas
+Paciente151;1;18.6;Canina;M;Vira-lata;Nenhum;Incompleto;Agressivo;Ração;Sem Problemas
+Paciente152;2;33.7;Canina;M;Labrador;Insuficiência Renal;Completo;Calmo;Medicamento;Sem Problemas
+Paciente159;0;28.8;Canina;M;Labrador;Alergia Crônica;Incompleto;Agressivo;Nenhuma;Internação
+Paciente160;0;42.0;Canina;F;Vira-lata;Alergia Crônica;Completo;Sociável;Pólen;Morte
+Paciente161;8;8.5;Canina;F;Poodle;Problema Articular;Desconhecido;Sociável;Nenhuma;Sem Problemas
+Paciente165;11;36.9;Canina;M;Labrador;Cardiopatia;Desconhecido;Calmo;Ração;Internação
+Paciente168;19;34.2;Canina;M;Pitbull;Nenhum;Desconhecido;Calmo;Pólen;Internação
+Paciente170;18;49.3;Canina;M;Vira-lata;Cardiopatia;Completo;Sociável;Pólen;Sem Problemas
+Paciente173;6;9.0;Canina;F;Vira-lata;Cardiopatia;Desconhecido;Calmo;Nenhuma;Sem Problemas
+Paciente177;3;15.6;Canina;M;Pitbull;Diabetes;Completo;Calmo;Ração;Sem Problemas
+Paciente187;0;45.8;Canina;F;Bulldog;Problema Articular;Incompleto;Sociável;Pólen;Sem Problemas
+Paciente188;15;24.0;Canina;F;Golden Retriever;Nenhum;Incompleto;Calmo;Nenhuma;Internação
+Paciente189;13;31.3;Canina;F;Golden Retriever;Nenhum;Completo;Medroso;Pólen;Internação
+Paciente190;7;9.8;Canina;M;Poodle;Diabetes;Desconhecido;Calmo;Medicamento;Sem Problemas
+Paciente191;13;8.6;Canina;F;Vira-lata;Nenhum;Incompleto;Agressivo;Pólen;Sem Problemas
+Paciente192;6;13.3;Canina;F;Vira-lata;Insuficiência Renal;Incompleto;Medroso;Ração;Sem Problemas
+Paciente193;13;47.7;Canina;M;Labrador;Nenhum;Completo;Medroso;Pólen;Internação
+Paciente194;4;15.4;Canina;F;Bulldog;Alergia Crônica;Completo;Agressivo;Medicamento;Sem Problemas
+Paciente198;2;9.2;Canina;F;Poodle;Nenhum;Desconhecido;Agressivo;Ácaro;Sem Problemas
+Paciente199;11;33.2;Canina;M;Bulldog;Insuficiência Renal;Incompleto;Medroso;Pólen;Sem Problemas
+Paciente202;7;22.2;Canina;F;Golden Retriever;Diabetes;Incompleto;Medroso;Ácaro;Morte
+Paciente203;3;31.6;Canina;F;Vira-lata;Nenhum;Desconhecido;Medroso;Medicamento;Sem Problemas
+Paciente204;5;21.1;Canina;F;Vira-lata;Problema Articular;Incompleto;Calmo;Ração;Sem Problemas
+Paciente205;8;19.7;Canina;F;Poodle;Diabetes;Desconhecido;Calmo;Medicamento;Sem Problemas
+Paciente206;1;36.6;Canina;M;Vira-lata;Alergia Crônica;Completo;Medroso;Nenhuma;Sem Problemas
+Paciente207;7;32.2;Canina;M;Pitbull;Diabetes;Incompleto;Agressivo;Medicamento;Morte
+Paciente210;8;20.5;Canina;F;Pitbull;Insuficiência Renal;Desconhecido;Medroso;Ácaro;Morte
+Paciente212;8;11.8;Canina;M;Pitbull;Problema Articular;Completo;Agressivo;Ácaro;Morte
+Paciente214;9;25.2;Canina;M;Vira-lata;Problema Articular;Incompleto;Calmo;Nenhuma;Sem Problemas
+Paciente216;19;9.5;Canina;M;Pitbull;Diabetes;Desconhecido;Agressivo;Ração;Internação
+Paciente217;3;29.9;Canina;M;Poodle;Diabetes;Completo;Sociável;Pólen;Sem Problemas
+Paciente218;0;11.5;Canina;M;Pitbull;Problema Articular;Desconhecido;Calmo;Ácaro;Sem Problemas
+Paciente219;1;58.6;Canina;M;Labrador;Insuficiência Renal;Incompleto;Calmo;Ácaro;Sem Problemas
+Paciente220;12;12.9;Canina;F;Vira-lata;Cardiopatia;Completo;Calmo;Ração;Sem Problemas
+Paciente221;6;9.6;Canina;M;Golden Retriever;Alergia Crônica;Incompleto;Agressivo;Ração;Sem Problemas
+Paciente222;7;4.7;Canina;F;Poodle;Cardiopatia;Desconhecido;Sociável;Pólen;Sem Problemas
+Paciente223;10;57.6;Canina;F;Bulldog;Problema Articular;Incompleto;Medroso;Nenhuma;Sem Problemas
+Paciente224;4;53.9;Canina;F;Bulldog;Alergia Crônica;Desconhecido;Calmo;Medicamento;Sem Problemas
+Paciente225;11;53.5;Canina;F;Vira-lata;Cardiopatia;Completo;Agressivo;Nenhuma;Sem Problemas
+Paciente227;17;50.5;Canina;M;Bulldog;Diabetes;Incompleto;Sociável;Medicamento;Morte
+Paciente228;9;41.3;Canina;M;Golden Retriever;Cardiopatia;Desconhecido;Medroso;Medicamento;Sem Problemas
+Paciente232;10;24.9;Canina;F;Vira-lata;Insuficiência Renal;Incompleto;Agressivo;Medicamento;Morte
+Paciente235;8;40.6;Canina;F;Bulldog;Nenhum;Incompleto;Sociável;Medicamento;Morte
+Paciente237;14;56.5;Canina;F;Vira-lata;Insuficiência Renal;Completo;Calmo;Ácaro;Sem Problemas
+Paciente238;9;57.6;Canina;M;Poodle;Insuficiência Renal;Incompleto;Medroso;Ração;Sem Problemas
+Paciente239;10;36.3;Canina;F;Golden Retriever;Diabetes;Desconhecido;Calmo;Medicamento;Morte
+Paciente241;3;8.1;Canina;M;Vira-lata;Diabetes;Incompleto;Agressivo;Ácaro;Morte
+Paciente242;4;59.6;Canina;M;Vira-lata;Nenhum;Incompleto;Calmo;Pólen;Sem Problemas
+Paciente244;14;45.3;Canina;F;Labrador;Nenhum;Incompleto;Sociável;Ácaro;Internação
+Paciente249;18;56.0;Canina;M;Poodle;Insuficiência Renal;Desconhecido;Calmo;Pólen;Internação
+Paciente250;6;26.1;Canina;F;Vira-lata;Nenhum;Desconhecido;Sociável;Ácaro;Sem Problemas
+Paciente251;12;33.8;Canina;F;Poodle;Diabetes;Desconhecido;Medroso;Nenhuma;Morte
+Paciente256;16;47.3;Canina;F;Bulldog;Cardiopatia;Incompleto;Sociável;Pólen;Morte
+Paciente257;16;52.7;Canina;M;Pitbull;Nenhum;Completo;Agressivo;Medicamento;Sem Problemas
+Paciente259;15;17.7;Canina;M;Labrador;Alergia Crônica;Desconhecido;Sociável;Nenhuma;Internação
+Paciente260;1;51.0;Canina;M;Pitbull;Insuficiência Renal;Desconhecido;Agressivo;Nenhuma;Internação
+Paciente261;6;55.6;Canina;F;Bulldog;Cardiopatia;Desconhecido;Sociável;Medicamento;Sem Problemas
+Paciente265;5;49.6;Canina;F;Vira-lata;Problema Articular;Incompleto;Agressivo;Medicamento;Sem Problemas
+Paciente266;9;4.2;Canina;F;Bulldog;Diabetes;Completo;Calmo;Nenhuma;Sem Problemas
+Paciente267;12;40.7;Canina;F;Poodle;Insuficiência Renal;Incompleto;Agressivo;Ração;Internação
+Paciente270;1;44.8;Canina;M;Poodle;Problema Articular;Incompleto;Sociável;Medicamento;Sem Problemas
+Paciente273;9;49.1;Canina;M;Poodle;Alergia Crônica;Incompleto;Sociável;Nenhuma;Internação
+Paciente279;9;51.5;Canina;M;Poodle;Insuficiência Renal;Completo;Agressivo;Medicamento;Sem Problemas
+Paciente280;3;13.2;Canina;F;Poodle;Alergia Crônica;Completo;Agressivo;Ácaro;Sem Problemas
+Paciente287;16;28.5;Canina;M;Labrador;Alergia Crônica;Completo;Calmo;Ração;Sem Problemas
+Paciente288;1;58.2;Canina;M;Poodle;Nenhum;Incompleto;Sociável;Ração;Sem Problemas
+Paciente289;11;40.7;Canina;M;Pitbull;Problema Articular;Incompleto;Agressivo;Ração;Sem Problemas
+Paciente291;11;17.6;Canina;F;Golden Retriever;Alergia Crônica;Incompleto;Calmo;Medicamento;Sem Problemas
+Paciente295;18;15.3;Canina;M;Labrador;Alergia Crônica;Incompleto;Calmo;Medicamento;Sem Problemas
+Paciente296;1;12.8;Canina;F;Golden Retriever;Insuficiência Renal;Desconhecido;Calmo;Nenhuma;Sem Problemas
+Paciente297;11;54.2;Canina;F;Golden Retriever;Insuficiência Renal;Incompleto;Sociável;Ácaro;Sem Problemas
+Paciente300;16;43.9;Canina;M;Pitbull;Diabetes;Incompleto;Medroso;Ácaro;Sem Problemas
+Paciente301;19;38.2;Canina;M;Vira-lata;Cardiopatia;Completo;Medroso;Medicamento;Sem Problemas
+Paciente303;2;46.7;Canina;F;Pitbull;Cardiopatia;Incompleto;Calmo;Ração;Internação
+Paciente304;15;35.9;Canina;F;Poodle;Nenhum;Completo;Medroso;Ácaro;Sem Problemas
+Paciente305;12;18.3;Canina;M;Poodle;Diabetes;Desconhecido;Agressivo;Pólen;Sem Problemas
+Paciente306;3;59.6;Canina;F;Golden Retriever;Problema Articular;Completo;Calmo;Nenhuma;Sem Problemas
+Paciente308;5;52.6;Canina;F;Poodle;Problema Articular;Incompleto;Medroso;Ácaro;Sem Problemas
+Paciente318;10;17.7;Canina;M;Poodle;Insuficiência Renal;Desconhecido;Agressivo;Medicamento;Sem Problemas
+Paciente320;16;43.5;Canina;M;Labrador;Problema Articular;Desconhecido;Agressivo;Ácaro;Internação
+Paciente321;9;49.9;Canina;F;Pitbull;Insuficiência Renal;Desconhecido;Agressivo;Medicamento;Sem Problemas
+Paciente323;8;31.4;Canina;F;Bulldog;Alergia Crônica;Incompleto;Sociável;Nenhuma;Sem Problemas
+Paciente326;14;12.1;Canina;F;Poodle;Nenhum;Incompleto;Sociável;Nenhuma;Sem Problemas
+Paciente327;8;52.2;Canina;F;Pitbull;Alergia Crônica;Completo;Medroso;Medicamento;Sem Problemas
+Paciente328;3;36.6;Canina;M;Pitbull;Problema Articular;Completo;Agressivo;Ácaro;Sem Problemas
+Paciente330;5;40.4;Canina;M;Vira-lata;Diabetes;Incompleto;Medroso;Ração;Sem Problemas
+Paciente331;0;54.0;Canina;F;Labrador;Nenhum;Desconhecido;Sociável;Ácaro;Internação
+Paciente332;15;8.1;Canina;F;Golden Retriever;Problema Articular;Desconhecido;Sociável;Nenhuma;Internação
+Paciente333;4;25.4;Canina;F;Poodle;Alergia Crônica;Incompleto;Calmo;Nenhuma;Sem Problemas
+Paciente337;1;15.3;Canina;F;Bulldog;Diabetes;Desconhecido;Sociável;Pólen;Internação
+Paciente339;1;43.7;Canina;F;Labrador;Problema Articular;Completo;Sociável;Ácaro;Morte
+Paciente340;7;31.6;Canina;M;Labrador;Alergia Crônica;Incompleto;Medroso;Ração;Sem Problemas
+Paciente341;2;48.9;Canina;M;Vira-lata;Alergia Crônica;Desconhecido;Medroso;Ácaro;Sem Problemas
+Paciente342;4;2.4;Canina;M;Labrador;Cardiopatia;Desconhecido;Agressivo;Medicamento;Sem Problemas
+Paciente344;14;19.9;Canina;F;Golden Retriever;Alergia Crônica;Completo;Medroso;Ração;Morte
+Paciente346;2;31.6;Canina;M;Golden Retriever;Diabetes;Completo;Medroso;Medicamento;Sem Problemas
+Paciente347;3;3.6;Canina;F;Vira-lata;Insuficiência Renal;Completo;Agressivo;Pólen;Sem Problemas
+Paciente350;5;50.9;Canina;M;Poodle;Diabetes;Incompleto;Agressivo;Pólen;Sem Problemas
+Paciente352;6;32.1;Canina;M;Golden Retriever;Diabetes;Completo;Sociável;Pólen;Sem Problemas
+Paciente353;12;34.9;Canina;M;Bulldog;Cardiopatia;Desconhecido;Calmo;Ração;Morte
+Paciente355;16;21.5;Canina;F;Pitbull;Cardiopatia;Desconhecido;Medroso;Nenhuma;Sem Problemas
+Paciente356;16;28.6;Canina;F;Pitbull;Alergia Crônica;Incompleto;Agressivo;Ácaro;Morte
+Paciente357;11;15.7;Canina;F;Vira-lata;Diabetes;Desconhecido;Agressivo;Nenhuma;Internação
+Paciente358;9;10.8;Canina;F;Vira-lata;Problema Articular;Completo;Calmo;Medicamento;Morte
+Paciente359;4;14.0;Canina;F;Vira-lata;Diabetes;Completo;Sociável;Medicamento;Sem Problemas
+Paciente360;3;14.7;Canina;M;Golden Retriever;Cardiopatia;Desconhecido;Sociável;Ácaro;Sem Problemas
+Paciente362;17;40.8;Canina;F;Vira-lata;Problema Articular;Completo;Sociável;Ácaro;Sem Problemas
+Paciente366;10;51.7;Canina;M;Bulldog;Cardiopatia;Desconhecido;Sociável;Ácaro;Sem Problemas
+Paciente367;12;29.7;Canina;F;Poodle;Diabetes;Desconhecido;Medroso;Pólen;Sem Problemas
+Paciente369;6;44.7;Canina;F;Bulldog;Diabetes;Incompleto;Sociável;Nenhuma;Internação
+Paciente371;18;6.9;Canina;M;Vira-lata;Cardiopatia;Completo;Calmo;Pólen;Internação
+Paciente372;3;26.8;Canina;F;Vira-lata;Cardiopatia;Completo;Sociável;Medicamento;Sem Problemas
+Paciente375;7;13.7;Canina;M;Labrador;Cardiopatia;Desconhecido;Calmo;Medicamento;Sem Problemas
+Paciente376;15;46.7;Canina;M;Bulldog;Insuficiência Renal;Incompleto;Agressivo;Ração;Morte
+Paciente377;12;54.1;Canina;M;Golden Retriever;Alergia Crônica;Desconhecido;Agressivo;Pólen;Internação
+Paciente378;1;4.6;Canina;F;Golden Retriever;Insuficiência Renal;Incompleto;Medroso;Nenhuma;Sem Problemas
+Paciente379;7;32.2;Canina;F;Golden Retriever;Cardiopatia;Completo;Calmo;Ácaro;Sem Problemas
+Paciente382;1;37.8;Canina;F;Bulldog;Cardiopatia;Completo;Agressivo;Nenhuma;Morte
+Paciente384;3;54.9;Canina;M;Golden Retriever;Nenhum;Completo;Calmo;Ácaro;Morte
+Paciente385;9;50.9;Canina;F;Labrador;Alergia Crônica;Incompleto;Agressivo;Pólen;Morte
+Paciente388;2;3.1;Canina;M;Pitbull;Problema Articular;Completo;Medroso;Nenhuma;Sem Problemas
+Paciente389;1;6.1;Canina;F;Bulldog;Alergia Crônica;Completo;Agressivo;Medicamento;Sem Problemas
+Paciente390;19;49.3;Canina;F;Labrador;Cardiopatia;Incompleto;Sociável;Nenhuma;Sem Problemas
+Paciente395;19;37.6;Canina;M;Golden Retriever;Cardiopatia;Desconhecido;Calmo;Medicamento;Internação
+Paciente398;19;40.3;Canina;M;Vira-lata;Diabetes;Desconhecido;Calmo;Medicamento;Sem Problemas
+Paciente400;13;45.6;Canina;M;Bulldog;Cardiopatia;Completo;Medroso;Ácaro;Internação
+Paciente403;19;26.0;Canina;F;Golden Retriever;Insuficiência Renal;Incompleto;Medroso;Pólen;Sem Problemas
+Paciente404;8;31.4;Canina;F;Vira-lata;Nenhum;Desconhecido;Sociável;Nenhuma;Sem Problemas
+Paciente405;6;59.1;Canina;F;Poodle;Alergia Crônica;Desconhecido;Agressivo;Medicamento;Sem Problemas
+Paciente408;6;22.3;Canina;M;Pitbull;Nenhum;Desconhecido;Calmo;Ácaro;Sem Problemas
+Paciente411;8;17.4;Canina;M;Vira-lata;Cardiopatia;Completo;Agressivo;Ácaro;Sem Problemas
+Paciente412;15;38.5;Canina;M;Poodle;Nenhum;Incompleto;Sociável;Medicamento;Sem Problemas
+Paciente413;4;58.3;Canina;M;Pitbull;Diabetes;Completo;Sociável;Pólen;Sem Problemas
+Paciente416;7;22.7;Canina;F;Vira-lata;Cardiopatia;Desconhecido;Agressivo;Ácaro;Sem Problemas
+Paciente418;14;27.5;Canina;F;Vira-lata;Alergia Crônica;Desconhecido;Sociável;Ácaro;Sem Problemas
+Paciente420;12;27.1;Canina;F;Poodle;Nenhum;Incompleto;Calmo;Pólen;Sem Problemas
+Paciente422;12;7.9;Canina;F;Vira-lata;Nenhum;Incompleto;Calmo;Medicamento;Sem Problemas
+Paciente424;15;53.3;Canina;M;Vira-lata;Nenhum;Incompleto;Medroso;Nenhuma;Sem Problemas
+Paciente425;16;34.2;Canina;F;Vira-lata;Cardiopatia;Completo;Medroso;Ácaro;Sem Problemas
+Paciente426;11;50.7;Canina;F;Pitbull;Nenhum;Incompleto;Medroso;Nenhuma;Sem Problemas
+Paciente427;13;52.9;Canina;M;Golden Retriever;Nenhum;Incompleto;Calmo;Nenhuma;Sem Problemas
+Paciente428;19;12.4;Canina;F;Poodle;Cardiopatia;Incompleto;Sociável;Medicamento;Internação
+Paciente430;18;46.1;Canina;F;Pitbull;Diabetes;Incompleto;Agressivo;Ácaro;Sem Problemas
+Paciente432;2;46.4;Canina;M;Labrador;Problema Articular;Desconhecido;Medroso;Ácaro;Internação
+Paciente433;8;32.5;Canina;F;Poodle;Alergia Crônica;Incompleto;Medroso;Ração;Sem Problemas
+Paciente434;7;31.5;Canina;M;Vira-lata;Diabetes;Completo;Medroso;Nenhuma;Morte
+Paciente435;7;21.7;Canina;F;Poodle;Insuficiência Renal;Incompleto;Calmo;Medicamento;Morte
+Paciente438;12;25.9;Canina;M;Bulldog;Cardiopatia;Incompleto;Agressivo;Pólen;Sem Problemas
+Paciente439;18;52.5;Canina;M;Labrador;Insuficiência Renal;Incompleto;Calmo;Ácaro;Sem Problemas
+Paciente441;18;55.7;Canina;M;Poodle;Diabetes;Completo;Sociável;Pólen;Sem Problemas
+Paciente442;16;16.0;Canina;M;Poodle;Insuficiência Renal;Completo;Medroso;Pólen;Sem Problemas
+Paciente443;16;38.2;Canina;M;Labrador;Diabetes;Desconhecido;Agressivo;Ração;Morte
+Paciente444;7;35.3;Canina;F;Golden Retriever;Insuficiência Renal;Completo;Medroso;Pólen;Sem Problemas
+Paciente446;7;15.7;Canina;F;Poodle;Problema Articular;Desconhecido;Sociável;Pólen;Internação
+Paciente447;12;55.4;Canina;M;Pitbull;Cardiopatia;Incompleto;Sociável;Pólen;Sem Problemas
+Paciente450;9;2.8;Canina;F;Bulldog;Nenhum;Desconhecido;Sociável;Ácaro;Sem Problemas
+Paciente451;2;22.9;Canina;F;Golden Retriever;Cardiopatia;Desconhecido;Medroso;Ácaro;Sem Problemas
+Paciente453;3;43.0;Canina;F;Pitbull;Problema Articular;Incompleto;Medroso;Pólen;Internação
+Paciente455;8;18.4;Canina;F;Pitbull;Diabetes;Incompleto;Sociável;Ácaro;Internação
+Paciente457;12;17.5;Canina;M;Vira-lata;Insuficiência Renal;Incompleto;Calmo;Pólen;Internação
+Paciente459;18;53.6;Canina;M;Golden Retriever;Nenhum;Desconhecido;Sociável;Nenhuma;Morte
+Paciente462;7;53.2;Canina;F;Labrador;Nenhum;Completo;Sociável;Pólen;Sem Problemas
+Paciente463;1;5.1;Canina;F;Golden Retriever;Cardiopatia;Desconhecido;Sociável;Nenhuma;Internação
+Paciente466;16;59.1;Canina;M;Labrador;Problema Articular;Desconhecido;Calmo;Nenhuma;Sem Problemas
+Paciente467;17;38.0;Canina;F;Labrador;Alergia Crônica;Completo;Sociável;Nenhuma;Internação
+Paciente469;8;16.6;Canina;M;Pitbull;Cardiopatia;Incompleto;Calmo;Nenhuma;Internação
+Paciente472;2;9.9;Canina;F;Poodle;Diabetes;Completo;Sociável;Medicamento;Internação
+Paciente474;5;31.5;Canina;M;Vira-lata;Diabetes;Completo;Calmo;Ácaro;Sem Problemas
+Paciente475;10;30.3;Canina;F;Golden Retriever;Nenhum;Desconhecido;Agressivo;Medicamento;Sem Problemas
+Paciente478;15;30.9;Canina;F;Golden Retriever;Insuficiência Renal;Incompleto;Calmo;Nenhuma;Morte
+Paciente479;3;59.9;Canina;M;Pitbull;Diabetes;Desconhecido;Medroso;Nenhuma;Sem Problemas
+Paciente481;1;31.4;Canina;F;Pitbull;Nenhum;Completo;Medroso;Ração;Sem Problemas
+Paciente483;17;27.9;Canina;M;Pitbull;Problema Articular;Completo;Medroso;Ácaro;Sem Problemas
+Paciente484;9;40.9;Canina;F;Bulldog;Diabetes;Desconhecido;Medroso;Pólen;Sem Problemas
+Paciente486;11;44.1;Canina;F;Bulldog;Insuficiência Renal;Desconhecido;Sociável;Pólen;Morte
+Paciente487;6;36.2;Canina;F;Vira-lata;Problema Articular;Incompleto;Agressivo;Medicamento;Sem Problemas
+Paciente488;14;17.3;Canina;F;Vira-lata;Insuficiência Renal;Completo;Sociável;Nenhuma;Sem Problemas
+Paciente489;9;56.3;Canina;F;Vira-lata;Alergia Crônica;Completo;Sociável;Medicamento;Internação
+Paciente490;4;32.7;Canina;F;Bulldog;Problema Articular;Desconhecido;Medroso;Medicamento;Internação
+Paciente491;5;12.7;Canina;M;Poodle;Alergia Crônica;Incompleto;Medroso;Nenhuma;Sem Problemas
+Paciente496;11;22.0;Canina;F;Vira-lata;Alergia Crônica;Desconhecido;Agressivo;Nenhuma;Sem Problemas
+Paciente497;18;46.6;Canina;M;Labrador;Nenhum;Incompleto;Calmo;Ácaro;Internação
+Paciente499;2;41.2;Canina;M;Golden Retriever;Nenhum;Completo;Sociável;Ração;Sem Problemas
+Paciente501;13;32.2;Canina;F;Poodle;Cardiopatia;Incompleto;Agressivo;Pólen;Internação
+Paciente503;9;22.6;Canina;M;Pitbull;Insuficiência Renal;Incompleto;Sociável;Nenhuma;Internação
+Paciente506;5;11.0;Canina;M;Labrador;Insuficiência Renal;Incompleto;Sociável;Nenhuma;Sem Problemas
+Paciente508;10;19.6;Canina;M;Poodle;Cardiopatia;Incompleto;Medroso;Medicamento;Sem Problemas
+Paciente509;7;22.7;Canina;M;Labrador;Cardiopatia;Desconhecido;Medroso;Ácaro;Morte
+Paciente512;11;27.1;Canina;M;Pitbull;Alergia Crônica;Completo;Calmo;Medicamento;Internação
+Paciente514;12;48.8;Canina;M;Labrador;Problema Articular;Incompleto;Agressivo;Ração;Sem Problemas
+Paciente516;16;42.1;Canina;M;Vira-lata;Problema Articular;Completo;Medroso;Medicamento;Sem Problemas
+Paciente517;15;38.6;Canina;F;Bulldog;Problema Articular;Incompleto;Calmo;Medicamento;Internação
+Paciente518;5;26.7;Canina;F;Labrador;Diabetes;Desconhecido;Calmo;Ácaro;Morte
+Paciente519;14;6.2;Canina;F;Bulldog;Problema Articular;Completo;Medroso;Ácaro;Sem Problemas
+Paciente520;10;56.5;Canina;F;Vira-lata;Alergia Crônica;Incompleto;Agressivo;Ração;Sem Problemas
+Paciente523;3;31.6;Canina;F;Poodle;Nenhum;Incompleto;Sociável;Nenhuma;Sem Problemas
+Paciente524;6;7.1;Canina;F;Vira-lata;Problema Articular;Desconhecido;Agressivo;Ácaro;Morte
+Paciente530;18;4.0;Canina;M;Poodle;Diabetes;Completo;Calmo;Ácaro;Sem Problemas
+Paciente531;7;13.4;Canina;M;Vira-lata;Nenhum;Incompleto;Calmo;Medicamento;Sem Problemas
+Paciente534;7;32.1;Canina;M;Golden Retriever;Insuficiência Renal;Completo;Sociável;Ração;Sem Problemas
+Paciente541;14;33.6;Canina;F;Bulldog;Diabetes;Incompleto;Sociável;Ácaro;Sem Problemas
+Paciente542;0;19.6;Canina;M;Pitbull;Cardiopatia;Incompleto;Medroso;Ração;Internação
+Paciente547;19;5.6;Canina;F;Golden Retriever;Problema Articular;Completo;Medroso;Ácaro;Morte
+Paciente548;0;38.7;Canina;M;Vira-lata;Cardiopatia;Incompleto;Sociável;Ácaro;Sem Problemas
+Paciente549;6;44.8;Canina;F;Pitbull;Nenhum;Incompleto;Medroso;Ácaro;Sem Problemas
+Paciente551;4;48.3;Canina;F;Vira-lata;Diabetes;Completo;Sociável;Medicamento;Internação
+Paciente556;18;13.3;Canina;M;Poodle;Diabetes;Incompleto;Sociável;Nenhuma;Sem Problemas
+Paciente557;8;48.1;Canina;M;Bulldog;Problema Articular;Completo;Calmo;Ácaro;Morte
+Paciente561;15;21.0;Canina;F;Vira-lata;Diabetes;Completo;Medroso;Ácaro;Sem Problemas
+Paciente565;15;16.8;Canina;M;Bulldog;Insuficiência Renal;Incompleto;Agressivo;Ácaro;Sem Problemas
+Paciente570;17;16.7;Canina;M;Golden Retriever;Cardiopatia;Completo;Sociável;Ração;Morte
+Paciente572;3;22.9;Canina;M;Vira-lata;Diabetes;Incompleto;Sociável;Medicamento;Morte
+Paciente573;4;2.3;Canina;M;Labrador;Diabetes;Completo;Agressivo;Pólen;Internação
+Paciente574;12;37.8;Canina;M;Labrador;Insuficiência Renal;Incompleto;Calmo;Pólen;Sem Problemas
+Paciente577;8;48.9;Canina;F;Golden Retriever;Nenhum;Incompleto;Medroso;Pólen;Sem Problemas
+Paciente579;4;25.2;Canina;M;Labrador;Problema Articular;Desconhecido;Medroso;Pólen;Sem Problemas
+Paciente580;3;55.4;Canina;F;Labrador;Problema Articular;Completo;Medroso;Nenhuma;Sem Problemas
+Paciente582;13;56.9;Canina;F;Poodle;Problema Articular;Incompleto;Sociável;Ração;Sem Problemas
+Paciente587;14;46.7;Canina;M;Labrador;Problema Articular;Incompleto;Sociável;Nenhuma;Sem Problemas
+Paciente588;2;15.3;Canina;F;Labrador;Nenhum;Incompleto;Agressivo;Medicamento;Sem Problemas
+Paciente590;18;2.3;Canina;M;Poodle;Alergia Crônica;Incompleto;Agressivo;Nenhuma;Sem Problemas
+Paciente591;6;11.1;Canina;F;Vira-lata;Nenhum;Incompleto;Medroso;Nenhuma;Sem Problemas
+Paciente594;0;24.9;Canina;M;Poodle;Insuficiência Renal;Incompleto;Medroso;Ácaro;Internação
+Paciente595;0;7.9;Canina;F;Pitbull;Alergia Crônica;Incompleto;Agressivo;Ácaro;Sem Problemas
+Paciente596;16;43.5;Canina;M;Labrador;Nenhum;Desconhecido;Agressivo;Ácaro;Sem Problemas
+Paciente598;9;50.3;Canina;F;Bulldog;Diabetes;Incompleto;Sociável;Medicamento;Sem Problemas
+Paciente599;13;43.5;Canina;M;Vira-lata;Problema Articular;Completo;Sociável;Ácaro;Sem Problemas
+Paciente601;12;35.0;Canina;F;Pitbull;Nenhum;Desconhecido;Sociável;Ácaro;Sem Problemas
+Paciente602;18;13.3;Canina;F;Bulldog;Cardiopatia;Completo;Medroso;Ração;Sem Problemas
+Paciente603;9;6.4;Canina;F;Pitbull;Alergia Crônica;Incompleto;Agressivo;Nenhuma;Sem Problemas
+Paciente605;16;33.2;Canina;M;Labrador;Problema Articular;Completo;Agressivo;Nenhuma;Sem Problemas
+Paciente607;10;25.6;Canina;M;Bulldog;Diabetes;Incompleto;Medroso;Pólen;Morte
+Paciente608;16;30.3;Canina;F;Bulldog;Problema Articular;Completo;Medroso;Medicamento;Sem Problemas
+Paciente609;1;16.1;Canina;M;Poodle;Cardiopatia;Incompleto;Agressivo;Ração;Sem Problemas
+Paciente610;8;50.2;Canina;M;Labrador;Diabetes;Incompleto;Calmo;Ácaro;Sem Problemas
+Paciente611;15;36.1;Canina;M;Bulldog;Alergia Crônica;Completo;Medroso;Nenhuma;Sem Problemas
+Paciente613;3;11.9;Canina;M;Labrador;Alergia Crônica;Completo;Agressivo;Nenhuma;Sem Problemas
+Paciente614;16;34.6;Canina;F;Pitbull;Insuficiência Renal;Completo;Agressivo;Pólen;Sem Problemas
+Paciente615;7;28.4;Canina;F;Golden Retriever;Cardiopatia;Incompleto;Sociável;Medicamento;Internação
+Paciente620;17;16.3;Canina;M;Labrador;Cardiopatia;Incompleto;Medroso;Ácaro;Internação
+Paciente623;17;49.0;Canina;M;Labrador;Cardiopatia;Desconhecido;Agressivo;Medicamento;Sem Problemas
+Paciente624;1;17.3;Canina;M;Golden Retriever;Insuficiência Renal;Incompleto;Medroso;Ração;Sem Problemas
+Paciente626;13;20.2;Canina;M;Vira-lata;Nenhum;Desconhecido;Agressivo;Pólen;Sem Problemas
+Paciente628;1;35.1;Canina;F;Labrador;Cardiopatia;Incompleto;Agressivo;Ração;Sem Problemas
+Paciente630;18;24.4;Canina;M;Poodle;Insuficiência Renal;Desconhecido;Calmo;Ácaro;Sem Problemas
+Paciente631;4;44.9;Canina;F;Pitbull;Insuficiência Renal;Incompleto;Calmo;Pólen;Internação
+Paciente632;9;35.4;Canina;M;Poodle;Alergia Crônica;Completo;Calmo;Pólen;Sem Problemas
+Paciente637;5;48.1;Canina;F;Golden Retriever;Insuficiência Renal;Desconhecido;Medroso;Medicamento;Sem Problemas
+Paciente639;16;54.8;Canina;M;Bulldog;Cardiopatia;Desconhecido;Sociável;Nenhuma;Sem Problemas
+Paciente640;7;14.0;Canina;F;Vira-lata;Alergia Crônica;Desconhecido;Agressivo;Medicamento;Internação
+Paciente642;9;27.3;Canina;M;Golden Retriever;Nenhum;Completo;Medroso;Nenhuma;Internação
+Paciente644;1;51.0;Canina;F;Labrador;Nenhum;Incompleto;Sociável;Nenhuma;Sem Problemas
+Paciente645;4;38.3;Canina;F;Vira-lata;Diabetes;Completo;Agressivo;Ácaro;Sem Problemas
+Paciente649;6;30.0;Canina;F;Pitbull;Nenhum;Incompleto;Agressivo;Ácaro;Internação
+Paciente651;18;9.6;Canina;F;Vira-lata;Cardiopatia;Incompleto;Agressivo;Ácaro;Sem Problemas
+Paciente654;1;41.9;Canina;F;Bulldog;Nenhum;Completo;Agressivo;Ácaro;Morte
+Paciente657;18;18.1;Canina;F;Bulldog;Cardiopatia;Incompleto;Calmo;Pólen;Sem Problemas
+Paciente661;6;54.1;Canina;F;Vira-lata;Insuficiência Renal;Desconhecido;Sociável;Ácaro;Morte
+Paciente663;13;58.2;Canina;F;Vira-lata;Cardiopatia;Desconhecido;Agressivo;Medicamento;Sem Problemas
+Paciente669;6;14.0;Canina;F;Pitbull;Alergia Crônica;Completo;Medroso;Medicamento;Morte
+Paciente672;17;48.1;Canina;M;Golden Retriever;Nenhum;Completo;Medroso;Ração;Sem Problemas
+Paciente673;13;13.8;Canina;F;Pitbull;Nenhum;Completo;Calmo;Ração;Sem Problemas
+Paciente676;8;9.4;Canina;M;Bulldog;Insuficiência Renal;Desconhecido;Medroso;Nenhuma;Internação
+Paciente678;15;53.7;Canina;F;Pitbull;Cardiopatia;Desconhecido;Agressivo;Ração;Internação
+Paciente679;14;22.2;Canina;F;Bulldog;Problema Articular;Desconhecido;Calmo;Ração;Sem Problemas
+Paciente680;19;35.9;Canina;F;Bulldog;Insuficiência Renal;Incompleto;Agressivo;Pólen;Sem Problemas
+Paciente683;6;48.5;Canina;F;Golden Retriever;Nenhum;Completo;Calmo;Nenhuma;Sem Problemas
+Paciente685;16;41.9;Canina;F;Vira-lata;Problema Articular;Incompleto;Medroso;Ração;Sem Problemas
+Paciente687;7;40.7;Canina;F;Poodle;Nenhum;Desconhecido;Sociável;Ração;Sem Problemas
+Paciente690;15;9.5;Canina;F;Pitbull;Insuficiência Renal;Desconhecido;Sociável;Nenhuma;Sem Problemas
+Paciente691;4;20.9;Canina;M;Vira-lata;Problema Articular;Incompleto;Agressivo;Ácaro;Sem Problemas
+Paciente695;10;49.5;Canina;M;Pitbull;Alergia Crônica;Incompleto;Sociável;Nenhuma;Internação
+Paciente696;12;34.9;Canina;M;Poodle;Alergia Crônica;Completo;Medroso;Pólen;Sem Problemas
+Paciente697;16;31.0;Canina;F;Vira-lata;Diabetes;Desconhecido;Agressivo;Ácaro;Internação
+Paciente700;6;40.9;Canina;F;Poodle;Nenhum;Desconhecido;Calmo;Nenhuma;Sem Problemas
+Paciente703;19;53.2;Canina;F;Vira-lata;Diabetes;Incompleto;Agressivo;Ração;Sem Problemas
+Paciente704;13;50.1;Canina;F;Golden Retriever;Cardiopatia;Incompleto;Agressivo;Medicamento;Sem Problemas
+Paciente705;0;3.4;Canina;M;Golden Retriever;Insuficiência Renal;Completo;Sociável;Nenhuma;Internação
+Paciente706;14;26.0;Canina;F;Pitbull;Nenhum;Completo;Sociável;Ácaro;Sem Problemas
+Paciente707;8;12.8;Canina;F;Vira-lata;Cardiopatia;Incompleto;Calmo;Nenhuma;Sem Problemas
+Paciente711;19;39.9;Canina;F;Bulldog;Nenhum;Incompleto;Sociável;Ácaro;Sem Problemas
+Paciente715;4;54.4;Canina;M;Pitbull;Cardiopatia;Incompleto;Agressivo;Medicamento;Sem Problemas
+Paciente716;11;19.2;Canina;M;Labrador;Problema Articular;Desconhecido;Sociável;Ácaro;Internação
+Paciente718;4;50.1;Canina;M;Golden Retriever;Problema Articular;Completo;Sociável;Medicamento;Sem Problemas
+Paciente719;17;17.1;Canina;M;Labrador;Cardiopatia;Desconhecido;Calmo;Ácaro;Morte
+Paciente720;11;6.6;Canina;F;Pitbull;Nenhum;Incompleto;Calmo;Nenhuma;Sem Problemas
+Paciente721;10;10.3;Canina;M;Golden Retriever;Problema Articular;Incompleto;Calmo;Pólen;Sem Problemas
+Paciente725;11;33.3;Canina;F;Poodle;Problema Articular;Completo;Sociável;Ácaro;Internação
+Paciente726;9;27.5;Canina;M;Poodle;Problema Articular;Incompleto;Medroso;Ração;Sem Problemas
+Paciente727;12;22.7;Canina;F;Golden Retriever;Alergia Crônica;Incompleto;Calmo;Ração;Sem Problemas
+Paciente728;13;2.1;Canina;M;Poodle;Nenhum;Desconhecido;Medroso;Ácaro;Internação
+Paciente729;3;56.8;Canina;M;Golden Retriever;Problema Articular;Desconhecido;Sociável;Nenhuma;Internação
+Paciente731;13;2.1;Canina;F;Poodle;Problema Articular;Desconhecido;Medroso;Ração;Sem Problemas
+Paciente732;1;59.0;Canina;M;Golden Retriever;Alergia Crônica;Completo;Sociável;Nenhuma;Sem Problemas
+Paciente736;12;23.8;Canina;F;Labrador;Alergia Crônica;Desconhecido;Calmo;Ração;Morte
+Paciente737;18;28.5;Canina;M;Poodle;Diabetes;Completo;Agressivo;Nenhuma;Internação
+Paciente740;15;56.4;Canina;M;Vira-lata;Insuficiência Renal;Desconhecido;Sociável;Nenhuma;Morte
+Paciente741;0;15.2;Canina;F;Vira-lata;Alergia Crônica;Desconhecido;Agressivo;Ácaro;Internação
+Paciente742;18;29.9;Canina;M;Pitbull;Insuficiência Renal;Incompleto;Agressivo;Ração;Sem Problemas
+Paciente743;18;8.3;Canina;F;Bulldog;Insuficiência Renal;Completo;Calmo;Medicamento;Morte
+Paciente745;19;27.3;Canina;F;Vira-lata;Problema Articular;Completo;Calmo;Ração;Sem Problemas
+Paciente746;9;37.0;Canina;F;Poodle;Nenhum;Desconhecido;Calmo;Ácaro;Sem Problemas
+Paciente749;2;17.2;Canina;F;Pitbull;Insuficiência Renal;Incompleto;Sociável;Ração;Sem Problemas
+Paciente751;6;18.3;Canina;M;Bulldog;Insuficiência Renal;Incompleto;Sociável;Medicamento;Morte
+Paciente755;0;36.5;Canina;M;Golden Retriever;Cardiopatia;Completo;Agressivo;Medicamento;Morte
+Paciente761;10;58.0;Canina;M;Bulldog;Insuficiência Renal;Desconhecido;Calmo;Nenhuma;Sem Problemas
+Paciente762;14;14.1;Canina;M;Golden Retriever;Problema Articular;Desconhecido;Agressivo;Ácaro;Internação
+Paciente764;1;40.5;Canina;M;Poodle;Problema Articular;Desconhecido;Agressivo;Medicamento;Sem Problemas
+Paciente765;10;46.6;Canina;F;Vira-lata;Problema Articular;Completo;Sociável;Ácaro;Internação
+Paciente767;3;28.7;Canina;M;Golden Retriever;Nenhum;Incompleto;Calmo;Medicamento;Sem Problemas
+Paciente770;18;54.1;Canina;M;Labrador;Diabetes;Incompleto;Medroso;Nenhuma;Sem Problemas
+Paciente773;16;41.6;Canina;M;Bulldog;Cardiopatia;Incompleto;Agressivo;Nenhuma;Sem Problemas
+Paciente775;3;17.3;Canina;M;Poodle;Problema Articular;Incompleto;Medroso;Pólen;Internação
+Paciente776;13;22.1;Canina;F;Vira-lata;Cardiopatia;Desconhecido;Medroso;Ácaro;Internação
+Paciente778;2;30.7;Canina;M;Pitbull;Insuficiência Renal;Completo;Calmo;Ração;Sem Problemas
+Paciente779;5;25.9;Canina;M;Vira-lata;Nenhum;Completo;Medroso;Pólen;Sem Problemas
+Paciente781;4;11.2;Canina;M;Labrador;Nenhum;Completo;Agressivo;Ácaro;Internação
+Paciente785;10;44.3;Canina;M;Pitbull;Diabetes;Desconhecido;Agressivo;Pólen;Sem Problemas
+Paciente786;8;34.6;Canina;F;Vira-lata;Alergia Crônica;Desconhecido;Medroso;Medicamento;Sem Problemas
+Paciente787;6;33.3;Canina;F;Bulldog;Diabetes;Incompleto;Medroso;Pólen;Morte
+Paciente788;16;16.4;Canina;F;Labrador;Alergia Crônica;Completo;Sociável;Ração;Sem Problemas
+Paciente792;13;42.6;Canina;F;Bulldog;Problema Articular;Incompleto;Calmo;Ração;Sem Problemas
+Paciente793;8;37.0;Canina;F;Poodle;Diabetes;Incompleto;Calmo;Pólen;Sem Problemas
+Paciente794;16;49.8;Canina;M;Bulldog;Cardiopatia;Completo;Calmo;Ração;Sem Problemas
+Paciente795;19;25.8;Canina;M;Pitbull;Problema Articular;Incompleto;Calmo;Ácaro;Sem Problemas
+Paciente796;16;59.6;Canina;M;Vira-lata;Diabetes;Incompleto;Calmo;Nenhuma;Sem Problemas
+Paciente797;19;27.9;Canina;M;Labrador;Nenhum;Desconhecido;Medroso;Medicamento;Sem Problemas
+Paciente800;3;7.1;Canina;M;Poodle;Problema Articular;Desconhecido;Calmo;Ácaro;Sem Problemas
+Paciente801;17;55.5;Canina;M;Vira-lata;Cardiopatia;Desconhecido;Sociável;Medicamento;Sem Problemas
+Paciente804;3;8.1;Canina;M;Poodle;Insuficiência Renal;Desconhecido;Agressivo;Ácaro;Sem Problemas
+Paciente812;15;12.2;Canina;M;Vira-lata;Cardiopatia;Completo;Agressivo;Medicamento;Sem Problemas
+Paciente816;19;58.6;Canina;F;Poodle;Alergia Crônica;Desconhecido;Agressivo;Nenhuma;Sem Problemas
+Paciente818;2;39.2;Canina;M;Golden Retriever;Nenhum;Desconhecido;Sociável;Medicamento;Internação
+Paciente820;13;7.8;Canina;F;Golden Retriever;Problema Articular;Completo;Sociável;Pólen;Internação
+Paciente821;19;17.0;Canina;M;Bulldog;Insuficiência Renal;Incompleto;Agressivo;Pólen;Morte
+Paciente823;19;21.2;Canina;M;Poodle;Diabetes;Desconhecido;Calmo;Nenhuma;Sem Problemas
+Paciente824;9;7.9;Canina;M;Labrador;Insuficiência Renal;Incompleto;Sociável;Ração;Morte
+Paciente829;19;16.8;Canina;F;Labrador;Insuficiência Renal;Desconhecido;Sociável;Nenhuma;Sem Problemas
+Paciente830;6;56.1;Canina;F;Labrador;Nenhum;Desconhecido;Sociável;Nenhuma;Internação
+Paciente832;13;46.6;Canina;F;Pitbull;Problema Articular;Desconhecido;Agressivo;Nenhuma;Sem Problemas
+Paciente836;11;51.6;Canina;F;Golden Retriever;Insuficiência Renal;Completo;Calmo;Medicamento;Internação
+Paciente837;9;56.7;Canina;M;Labrador;Cardiopatia;Desconhecido;Sociável;Nenhuma;Sem Problemas
+Paciente839;13;30.7;Canina;M;Bulldog;Diabetes;Completo;Calmo;Nenhuma;Morte
+Paciente842;3;6.8;Canina;F;Golden Retriever;Nenhum;Incompleto;Agressivo;Ácaro;Sem Problemas
+Paciente844;11;55.1;Canina;M;Poodle;Cardiopatia;Incompleto;Agressivo;Medicamento;Internação
+Paciente845;5;5.5;Canina;M;Pitbull;Insuficiência Renal;Completo;Agressivo;Pólen;Internação
+Paciente854;8;5.8;Canina;M;Labrador;Insuficiência Renal;Desconhecido;Agressivo;Ácaro;Sem Problemas
+Paciente855;11;59.2;Canina;F;Vira-lata;Diabetes;Completo;Calmo;Medicamento;Internação
+Paciente859;5;28.3;Canina;F;Vira-lata;Diabetes;Completo;Sociável;Ácaro;Internação
+Paciente862;0;36.0;Canina;M;Poodle;Alergia Crônica;Completo;Calmo;Ração;Sem Problemas
+Paciente864;12;18.8;Canina;M;Golden Retriever;Alergia Crônica;Incompleto;Calmo;Pólen;Morte
+Paciente865;18;21.5;Canina;F;Bulldog;Problema Articular;Incompleto;Sociável;Medicamento;Sem Problemas
+Paciente871;10;59.9;Canina;M;Poodle;Diabetes;Desconhecido;Medroso;Ração;Sem Problemas
+Paciente872;9;21.7;Canina;M;Golden Retriever;Nenhum;Completo;Medroso;Nenhuma;Sem Problemas
+Paciente873;8;53.1;Canina;F;Pitbull;Problema Articular;Incompleto;Agressivo;Ração;Sem Problemas
+Paciente874;0;11.5;Canina;F;Bulldog;Diabetes;Incompleto;Agressivo;Nenhuma;Internação
+Paciente879;19;37.1;Canina;M;Vira-lata;Insuficiência Renal;Incompleto;Calmo;Medicamento;Sem Problemas
+Paciente883;4;33.2;Canina;M;Poodle;Alergia Crônica;Incompleto;Medroso;Pólen;Sem Problemas
+Paciente884;10;38.0;Canina;M;Pitbull;Cardiopatia;Incompleto;Calmo;Ácaro;Sem Problemas
+Paciente886;16;27.5;Canina;F;Pitbull;Insuficiência Renal;Completo;Medroso;Ração;Sem Problemas
+Paciente887;8;22.0;Canina;M;Poodle;Diabetes;Incompleto;Calmo;Ácaro;Sem Problemas
+Paciente889;15;55.7;Canina;F;Vira-lata;Diabetes;Incompleto;Calmo;Ácaro;Sem Problemas
+Paciente890;2;35.8;Canina;F;Vira-lata;Nenhum;Desconhecido;Sociável;Ácaro;Sem Problemas
+Paciente891;6;14.1;Canina;M;Vira-lata;Diabetes;Desconhecido;Agressivo;Pólen;Internação
+Paciente892;12;13.6;Canina;M;Labrador;Insuficiência Renal;Incompleto;Medroso;Ração;Sem Problemas
+Paciente894;15;51.2;Canina;M;Bulldog;Problema Articular;Desconhecido;Medroso;Ácaro;Morte
+Paciente895;2;51.1;Canina;F;Pitbull;Problema Articular;Completo;Medroso;Ácaro;Sem Problemas
+Paciente897;13;18.8;Canina;M;Golden Retriever;Alergia Crônica;Completo;Agressivo;Nenhuma;Internação
+Paciente902;16;5.9;Canina;M;Poodle;Nenhum;Desconhecido;Agressivo;Nenhuma;Internação
+Paciente904;14;45.2;Canina;F;Poodle;Diabetes;Desconhecido;Sociável;Pólen;Sem Problemas
+Paciente905;13;9.5;Canina;M;Labrador;Problema Articular;Completo;Calmo;Ração;Sem Problemas
+Paciente908;6;50.0;Canina;M;Labrador;Cardiopatia;Completo;Agressivo;Nenhuma;Internação
+Paciente910;18;54.3;Canina;F;Poodle;Diabetes;Completo;Calmo;Ácaro;Morte
+Paciente911;10;5.7;Canina;F;Vira-lata;Problema Articular;Completo;Agressivo;Ácaro;Sem Problemas
+Paciente915;7;47.8;Canina;M;Golden Retriever;Cardiopatia;Desconhecido;Agressivo;Pólen;Morte
+Paciente916;13;59.3;Canina;M;Bulldog;Insuficiência Renal;Desconhecido;Calmo;Medicamento;Sem Problemas
+Paciente918;19;14.2;Canina;F;Poodle;Nenhum;Incompleto;Calmo;Nenhuma;Sem Problemas
+Paciente926;0;36.3;Canina;M;Bulldog;Cardiopatia;Desconhecido;Sociável;Pólen;Morte
+Paciente929;13;8.4;Canina;M;Vira-lata;Insuficiência Renal;Desconhecido;Medroso;Nenhuma;Sem Problemas
+Paciente931;12;47.8;Canina;M;Pitbull;Alergia Crônica;Incompleto;Sociável;Medicamento;Sem Problemas
+Paciente932;6;33.2;Canina;M;Bulldog;Alergia Crônica;Incompleto;Agressivo;Medicamento;Internação
+Paciente933;13;11.6;Canina;F;Poodle;Diabetes;Incompleto;Agressivo;Ácaro;Morte
+Paciente937;14;24.8;Canina;F;Poodle;Cardiopatia;Incompleto;Calmo;Ácaro;Sem Problemas
+Paciente938;3;45.4;Canina;F;Pitbull;Diabetes;Desconhecido;Calmo;Medicamento;Sem Problemas
+Paciente939;12;32.6;Canina;F;Vira-lata;Insuficiência Renal;Desconhecido;Medroso;Ácaro;Sem Problemas
+Paciente940;16;21.2;Canina;M;Poodle;Alergia Crônica;Desconhecido;Calmo;Nenhuma;Internação
+Paciente941;6;8.2;Canina;M;Pitbull;Nenhum;Completo;Sociável;Nenhuma;Sem Problemas
+Paciente943;3;51.7;Canina;F;Poodle;Diabetes;Completo;Agressivo;Ácaro;Internação
+Paciente946;7;51.4;Canina;F;Pitbull;Diabetes;Completo;Calmo;Nenhuma;Internação
+Paciente947;5;8.8;Canina;M;Vira-lata;Nenhum;Incompleto;Medroso;Medicamento;Sem Problemas
+Paciente952;16;13.0;Canina;M;Vira-lata;Nenhum;Incompleto;Medroso;Nenhuma;Internação
+Paciente953;13;7.4;Canina;F;Golden Retriever;Problema Articular;Desconhecido;Agressivo;Ração;Internação
+Paciente954;2;10.9;Canina;F;Labrador;Alergia Crônica;Desconhecido;Medroso;Ácaro;Sem Problemas
+Paciente958;2;55.4;Canina;F;Vira-lata;Cardiopatia;Desconhecido;Agressivo;Medicamento;Internação
+Paciente959;7;25.3;Canina;M;Labrador;Cardiopatia;Incompleto;Agressivo;Medicamento;Sem Problemas
+Paciente960;8;29.9;Canina;M;Bulldog;Nenhum;Desconhecido;Calmo;Ração;Sem Problemas
+Paciente961;6;23.9;Canina;M;Poodle;Problema Articular;Desconhecido;Medroso;Ração;Morte
+Paciente962;10;50.3;Canina;M;Vira-lata;Diabetes;Incompleto;Calmo;Pólen;Morte
+Paciente963;1;28.9;Canina;M;Bulldog;Nenhum;Desconhecido;Calmo;Ácaro;Sem Problemas
+Paciente964;5;10.7;Canina;M;Golden Retriever;Diabetes;Desconhecido;Agressivo;Ácaro;Internação
+Paciente965;16;32.2;Canina;F;Pitbull;Diabetes;Incompleto;Calmo;Medicamento;Sem Problemas
+Paciente968;4;36.4;Canina;M;Labrador;Alergia Crônica;Desconhecido;Calmo;Pólen;Morte
+Paciente969;12;17.0;Canina;M;Poodle;Problema Articular;Completo;Calmo;Nenhuma;Sem Problemas
+Paciente970;8;39.0;Canina;M;Bulldog;Cardiopatia;Completo;Sociável;Medicamento;Sem Problemas
+Paciente977;18;49.7;Canina;F;Poodle;Problema Articular;Incompleto;Medroso;Medicamento;Sem Problemas
+Paciente978;12;7.7;Canina;M;Vira-lata;Diabetes;Completo;Sociável;Ácaro;Sem Problemas
+Paciente979;5;21.2;Canina;M;Labrador;Cardiopatia;Desconhecido;Calmo;Pólen;Sem Problemas
+Paciente981;4;6.7;Canina;F;Golden Retriever;Problema Articular;Incompleto;Medroso;Medicamento;Sem Problemas
+Paciente982;7;6.4;Canina;F;Golden Retriever;Insuficiência Renal;Completo;Calmo;Nenhuma;Morte
+Paciente983;18;23.9;Canina;F;Golden Retriever;Problema Articular;Incompleto;Calmo;Ácaro;Sem Problemas
+Paciente986;19;3.6;Canina;M;Golden Retriever;Insuficiência Renal;Incompleto;Agressivo;Pólen;Sem Problemas
+Paciente988;15;42.7;Canina;F;Golden Retriever;Alergia Crônica;Incompleto;Sociável;Medicamento;Sem Problemas
+Paciente991;9;16.2;Canina;M;Labrador;Nenhum;Desconhecido;Calmo;Medicamento;Sem Problemas
+Paciente992;19;29.9;Canina;F;Bulldog;Alergia Crônica;Desconhecido;Agressivo;Ácaro;Sem Problemas
+Paciente993;16;57.4;Canina;M;Vira-lata;Insuficiência Renal;Desconhecido;Agressivo;Medicamento;Sem Problemas
+Paciente996;5;10.0;Canina;M;Bulldog;Diabetes;Desconhecido;Medroso;Pólen;Internação
+Paciente998;19;7.4;Canina;M;Labrador;Diabetes;Incompleto;Agressivo;Ração;Internação
+Paciente1000;14;39.3;Canina;F;Pitbull;Nenhum;Desconhecido;Medroso;Pólen;Sem Problemas

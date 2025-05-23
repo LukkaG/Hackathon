@@ -69,6 +69,9 @@
                         {% endfor %}
                     </tbody>
                 </table>
+                <a href="{{ url_for('prever', paciente_id=paciente[0]) }}">
+                    <button>Prever Risco</button>
+                </a>
             {% else %}
                 <p>Nenhum paciente cadastrado ainda.</p>
             {% endif %}
